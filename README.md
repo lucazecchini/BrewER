@@ -9,3 +9,5 @@ Here are listed, for each one of the four paper datasets, the names used in the 
 - SIGMOD21, referred to as altosight_sigmod;
 - Altosight, referred to as altosight;
 - Funding, referred to as funding: download the file "address.csv" (https://raw.githubusercontent.com/qcri/data_civilizer_system/master/grecord_service/gr/data/address/address.csv) and put it into the folder "raw_data".
+
+The file "main.py" contains the effective implementation of BrewER algorithm for ER-on-demand (progressive query-driven ER), while in the file "task_definition.py" are already implemented the classes that can be used to run batches of queries on each dataset version, where it is possible to set the parameters for the specific task. In the file "main.py", it will be enough to select the correct class and to define the number of queries to be executed for the current batch.
