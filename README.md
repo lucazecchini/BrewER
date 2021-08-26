@@ -1,3 +1,2 @@
 # BrewER
-Reference Paper:
-Giovanni Simonini, Luca Zecchini, Sonia Bergamaschi, Felix Naumann: "Entity Resolution On-Demand" (submitted to VLDB 2022)
+Giovanni Simonini, Luca Zecchini, Sonia Bergamaschi, Felix Naumann: "Entity Resolution On-Demand" (paper submitted to VLDB 2022)
