@@ -315,7 +315,7 @@ def brewer(mode, task, ds, gold, blocks, record_blocks, block_costs):
 
 def main():
     # Acquire the requirements of the task to be performed
-    for query_index in range(12, 14):
+    for query_index in range(1, 21):
         task = td.FundingNoNanTask(query_index)
 
         # Save the query details in the apposite file
