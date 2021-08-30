@@ -1,1 +1,1 @@
-These files can be used to generate the pre-processed versions of the four considered datasets (as used for the paper) from their raw versions; in order to do so, the files concerning the dataset to be pre-processed have to be locate into the main folder.
+These files can be used to generate the pre-processed versions of the four considered datasets (as used for the paper) from their raw versions; in order to do so, the files concerning the dataset to be pre-processed have to be moved into the main folder.
