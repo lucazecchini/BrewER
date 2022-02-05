@@ -11,3 +11,8 @@ Here are listed, for each one of the four paper datasets, the names used in the 
 - Funding, referred to as funding: download the file "address.csv" (https://raw.githubusercontent.com/qcri/data_civilizer_system/master/grecord_service/gr/data/address/address.csv) and put it into the folder "data_raw".
 
 The file "main.py" contains the effective implementation of BrewER algorithm for ER-on-demand (progressive query-driven ER), while in the file "task_definition.py" are already implemented the classes that can be used to run batches of queries on each dataset version, where it is possible to set the parameters for the specific task. In the file "main.py", it will be enough to select the correct class and to set the indices for the queries to be executed for the current batch.
+
+We also provide the notebook "BrewER.ipynb", containing an updated and more usable version of the implementation presented in the files "main.py" and "task_definition.py".
+In "data" folder, we provide an example of candidate set obtained using JedAI [1] (namely, "alaska_camera_no_nan_candidates.pkl").
+
+[1] G. Papadakis, G. Mandilaras, L. Gagliardelli, G. Simonini, E. Thanos, G. Giannakopoulos, S. Bergamaschi, T. Palpanas, M. Koubarakis: Three-dimensional Entity Resolution with JedAI. Information Systems 93: 101565 (2020)
